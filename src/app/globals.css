@@ -1,0 +1,37 @@
+:root{
+    --bg: paleturquoise;
+    --bgSoft: #5788c9;
+    --textSoft: #300303;
+    --text: black;
+    --btn: #351580;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    
+    background-color: rgb(203, 160, 247);
+    width: 1536px;
+    margin:auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
