@@ -1,9 +1,9 @@
 :root{
-    --bg: paleturquoise;
-    --bgSoft: #5788c9;
+    --bg: rgb(138, 186, 240);
+    --bgSoft: #9cc2f3;
     --textSoft: #300303;
-    --text: black;
-    --btn: #351580;
+    --text: rgb(255, 255, 255);
+    --btn: #510cff;
 }
 
 *{
@@ -24,7 +24,7 @@ a{
 
 .container{
     
-    background-color: rgb(203, 160, 247);
+    background-color: rgb(228, 167, 240);
     width: 1536px;
     margin:auto;
     padding-left: 50px;
@@ -33,5 +33,48 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
 
+@media (max-width: 1536px){
+    .container{
+        width: 1336px;
+    }
+}
+
+@media (max-width: 1336px){
+    .container{
+        width: 1280px;
+    }
+}
+
+@media (max-width: 1280px){
+    .container{
+        width: 1024px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1024px){
+    .container{
+        width: 768px;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 640px;
+    }
+}
+
+@media (max-width: 640px){
+    .container{
+        width: 475px;
+    }
+}
+
+@media (max-width: 475px){
+    .container{
+        width: 380px;
+    }
 }
